@@ -1,0 +1,15 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-indenpent-app",
+      "default": false
+    },
+    {
+      "path": "force-dependent-app",
+      "default": true
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "45.0"
+}
