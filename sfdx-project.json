@@ -2,11 +2,11 @@
   "packageDirectories": [
     {
       "path": "force-indenpent-app",
-      "default": false
+      "default": true
     },
     {
       "path": "force-dependent-app",
-      "default": true
+      "default": false
     }
   ],
   "namespace": "",
