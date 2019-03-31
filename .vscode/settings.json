@@ -1,4 +1,6 @@
 {
     "SFDoc.EnableForLightningJavascript": true,
-    "SFDoc.username": "william.salesforce@gmail.com - @BillSalesforce"
+    "SFDoc.username": "william.salesforce@gmail.com - @BillSalesforce",
+    "html.suggest.angular1": false,
+    "html.suggest.ionic": false
 }

@@ -1,15 +1,15 @@
 /**
- * @File Name          : LB_ServiceInterface.cls
+ * @File Name          : LB_ServiceLogicIndependentV2.cls
  * @Description        : 
  * @Author             : william.salesforce@gmail.com - @BillSalesforce
  * @Group              : 
  * @Last Modified By   : william.salesforce@gmail.com - @BillSalesforce
- * @Last Modified On   : 2019-03-30, 9:47:23 p.m.
+ * @Last Modified On   : 2019-03-30, 9:47:15 p.m.
  * @Modification Log   : 
  *==============================================================================
  * Ver         Date                     Author      		      Modification
  *==============================================================================
- * 1.0    2019-03-23, 9:09:02 p.m.   william.salesforce@gmail.com - @BillSalesforce     Initial Version 
+ * 1.0    2019-03-29, 6:00:40 p.m.   william.salesforce@gmail.com - @BillSalesforce     Initial Version
 
 MIT License
 
@@ -35,6 +35,8 @@ SOFTWARE.
 
 
 **/
-public interface LB_ServiceInterface {
-    void processSomething(Integer A);
+public with sharing class LB_ServiceLogicIndependentV2 implements LB_ServiceInterface {
+    public void processSomething(Integer A) {
+        System.debug('LB_ServiceLogicIndependentV2 - Parameter =' + A); 
+    }
 }

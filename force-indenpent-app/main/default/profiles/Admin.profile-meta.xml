@@ -16,6 +16,14 @@
         <apexClass>LB_ServiceLogic</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>LB_ServiceLogicIndependent</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LB_ServiceLogicIndependentV2</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <layoutAssignments>
         <layout>LB_ServiceFactory__mdt-Service Factory Layout</layout>
